@@ -1,0 +1,24 @@
+.plant {
+	z-index: 200;
+	position: fixed;
+	top: 0;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: cover;
+
+	&.plant-l {
+		right: 0;
+		width: 360px;
+		height: 287px;
+		
+		background-image: url('../img/plant.png');
+	}
+
+	&.plant-r {
+		left: 0;
+		width: 472px;
+		height: 376px;
+		background-image: url('../img/plant.png');
+		transform: scaleX(-1);
+	}
+}

@@ -1,0 +1,40 @@
+// Base font size
+
+
+// Gutter
+$gutter-s: 8px;
+$gutter-m: 20px;
+$gutter-l: 35px;
+$gutter-xl: 70px;
+$gutter-vert: 80px;
+
+// animations
+$t: 0.2s;
+$cb: cubic-bezier(0.23, 1, 0.32, 1);
+
+// Breakpoints
+$breakpoints: (
+    xs: 320px,
+    s: 480px,
+    m: 768px,
+    l: 960px,
+    xl: 1360px
+);
+$breakpoint-xs: map-get($breakpoints, xs);
+$breakpoint-s: map-get($breakpoints, s);
+$breakpoint-m: map-get($breakpoints, m);
+$breakpoint-l: map-get($breakpoints, l);
+$breakpoint-xl: map-get($breakpoints, xl);
+
+// Colors
+$color-purple: #84137a;
+$color-yellow: #fecb2f;
+
+$color-dark: #272d32;
+$color-gray: lighten($color-dark, 0.7);
+$color-gray-light: #999d9c;
+$color-error: #e84855;
+
+
+$border-radius: 5px;
+$box-shadow: 10px 22px 34px 0 rgba(0, 0, 0, 0.1);
